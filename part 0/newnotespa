@@ -1,0 +1,8 @@
+note over browser:
+user inputs a new note and hit submit button
+end note
+browser->server: HTTP post https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+browser appends the new note to the note list without refreshing the page
+end notetitle Untitled
